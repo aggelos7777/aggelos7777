@@ -1,31 +1,26 @@
-body{
-    margin: 0px;
+body{background-image: url(ronaldo.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
-main{
-    margin left: 20px;
-    margin-right: 20px;
+p1{ color: hsla(0, 0%, 100%, 0.914);
+    font-size:  22px;
+    font-style: italic;
 }
 h1{
-    text-align: center;
+    font-size: 46px;
+    font-style:italic;
+    text-shadow: 3px 3px 6px white;
 }
-.navbar ul{
-    list-style-type:none;
-    background-color: hsl(0, 7%, 41%);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
+nav{
+    font-style: italic;
+    border-style: solid;
+    border-width: 6px;
+    border-color: aquamarine;
+    border-radius: 7px;
 }
-.navbar a{
+.form{
     color:white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-.navbar a :hover{
-    background-color: hsl(0, 54%, 27%);
-}
-.navbar li{
-float: left;
 }
