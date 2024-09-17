@@ -1,11 +1,13 @@
-body{background-image: url(ronaldo.png);
+body{
+    background-image: url(ronaldo.png);
     background-repeat:no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-
+   
 }
-p1{ color: hsla(0, 0%, 100%, 0.914);
+p1{ 
+    color: hsla(0, 0%, 100%, 0.914);
     font-size:  22px;
     font-style: italic;
 }
@@ -15,6 +17,11 @@ h1{
     text-shadow: 3px 3px 6px white;
 }
 nav{
+    list-style-type:none;
+    background-color: rgb(240, 196, 138);
+    padding: 0px;
+    margin: 2px;
+    overflow: hidden;
     font-style: italic;
     border-style: solid;
     border-width: 6px;
@@ -23,4 +30,34 @@ nav{
 }
 .form{
     color:white;
+}
+ .navbar a{
+    color: rgb(24, 35, 33);
+    text-decoration: none;
+    padding:2px;
+    display: block;
+ }
+ .navbar a:hover{
+    background-color: rgb(200, 163, 163);
+ }
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(124, 60, 60);
+    font-size: 2em;
+    text-align: center;
+    animation-name: slideleft;
+    animation-duration: 7s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+
+}
+@keyframes slideleft{
+    from{transform: translateX(300%)}
+}
+img{height: 200px;
+     animation-name: slideleft;
+    animation-duration: 10s;
+    animation-iteration-count:3;
+    animation-direction: alternate;
 }
